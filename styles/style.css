@@ -28,12 +28,15 @@ img {
 
 /* common css end */
 /* banner part start */
+
+/* menu part start */
+/* menu part end */
 .banner_part {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 200px 0;
+    padding: 250px 0;
     position: relative;
     margin-bottom: 70PX;
 }
@@ -43,8 +46,8 @@ img {
     text-align: right;
     width: 460px;
     position: absolute;
-    top: 80px;
-    right: 200px;
+    top: 100px;
+    right: 180px;
 }
 
 .banner_text h1 {

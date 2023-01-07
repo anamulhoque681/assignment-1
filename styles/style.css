@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul,
@@ -84,7 +85,7 @@ img {
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
-    font-family: 'Open Sans', sans-serif;
+
 
 }
 
@@ -92,7 +93,6 @@ img {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -102,7 +102,7 @@ img {
     border-radius: 5px;
     margin-top: 20px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* banner part end */
@@ -186,8 +186,9 @@ img {
     justify-content: center;
     margin-bottom: 100px;
     gap: 100px;
-
-
+}
+.skill_container img {
+    text-align: center;
 }
 
 .skill_title {

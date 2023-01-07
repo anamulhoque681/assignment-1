@@ -30,6 +30,36 @@ img {
 /* banner part start */
 
 /* menu part start */
+.menu_cont {
+    height: 100px;
+    background: #cdd0cd;
+}
+
+.logo_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_menu ul {
+    display: flex;
+
+    
+}
+
+.main_menu ul li a {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_menu ul li {
+    line-height: 100px;
+    margin-left: 40px;
+}
+
 /* menu part end */
 .banner_part {
     background-image: url(../images/banner/banner1.png);
@@ -47,7 +77,7 @@ img {
     width: 460px;
     position: absolute;
     top: 100px;
-    right: 180px;
+    right: 220px;
 }
 
 .banner_text h1 {
@@ -157,96 +187,109 @@ img {
     margin-bottom: 100px;
     gap: 100px;
 
-    
+
 }
+
 .skill_title {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
     text-align: center;
-   
+
 }
-.skill_description{
+
+.skill_description {
     font-size: 25px;
     color: #444343;
     text-align: center;
 }
+
 /* my plan end*/
 
 /* mindset_part start */
-.mindset_img{
+.mindset_img {
     background: linear-gradient(90deg, rgba(241, 93, 34, 0.822) 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     border-radius: 8px;
     margin-bottom: 100px;
     height: 250px;
     background-position: center;
     background-size: cover;
-    
 
 
-    
+
+
 }
-.call-btn{
+
+.call-btn {
     padding: 10px 20px;
     background: white;
     border: 0;
     border-radius: 5px;
 }
 
-.call-btn a{
+.call-btn a {
     text-decoration: none;
     color: #F15B22;
 
 }
-.md_text{
+
+.md_text {
     padding: 50px;
     color: #fff;
     font-size: 25px;
-    
+
 }
+
 /* mindset_part end*/
 /* footer_part start */
-.footer{
+.footer {
     background: #151414;
     padding: 100px 0;
 }
 
-.footer_cont h2{
+.footer_cont h2 {
     color: #fff;
     font-size: 25px;
     text-transform: capitalize;
 
 }
-.footer_cont p{
+
+.footer_cont p {
     color: #fff;
     font-size: 15px;
     width: 400px;
 }
-.footer_img img{
+
+.footer_img img {
     margin-left: 20px;
     padding-left: 0;
 }
-.footer_container{
+
+.footer_container {
     display: flex;
     justify-content: space-around;
 }
-.subscribe{
+
+.subscribe {
     background: #fff;
-    color: #F15B22;;
+    color: #F15B22;
+    ;
     padding: 10px 20px;
     border-radius: 10px;
 
 }
-.footer_monu h3{
+
+.footer_monu h3 {
     color: #fff;
     font-size: 25px;
     font-weight: 400;
 }
-input{
-    background:#151414;
+
+input {
+    background: #151414;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid  #444343; 
+    border: 1px solid #444343;
     color: #fff;
 
 }
